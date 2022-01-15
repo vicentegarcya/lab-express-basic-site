@@ -5,6 +5,7 @@ h1, h2, h3, h4, h5 {
 
 p {
     font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
     text-align: center;
     width: 600px;
     margin: 40px 0px;
@@ -16,7 +17,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .btn {
@@ -27,4 +28,27 @@ p {
     border-bottom: 5px aquamarine solid;
     border-top: 5px aquamarine solid;
     margin: 0 10px;
+}
+
+ul {
+    list-style: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin-right: 39px;
+    margin-bottom: 40px;
+}
+
+img {
+    width: 300px;
+}
+
+#photo-gallery {
+    width: 910px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+#works-btns {
+    margin-bottom: 40px;
 }
