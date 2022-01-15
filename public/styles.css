@@ -1,0 +1,30 @@
+h1, h2, h3, h4, h5 {
+    font-family: 'Noto Serif Display', serif;
+    text-align: center;
+}
+
+p {
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    width: 600px;
+    margin: 40px 0px;
+}
+
+
+.flex-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.btn {
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+    border-bottom: 5px aquamarine solid;
+    border-top: 5px aquamarine solid;
+    margin: 0 10px;
+}

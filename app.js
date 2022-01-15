@@ -4,8 +4,21 @@ const app = express();
 
 app.listen(3000);
 
-app.get('/', (req, res) => {
-    console.log(req.url);
+app.use(express.static('public'));
 
-    res.send('Isa vámonos a casa');
+
+app.get('/home', (req, res) => {
+    res.sendFile(__dirname + '/views/index.html');
+});
+
+app.get('/works', (req, res) => {
+    res.sendFile(__dirname + '/views/works.html');
+});
+
+app.get('/gallery', (req, res) => {
+    res.sendFile(__dirname + '/views/gallery.html');
+});
+
+app.get('/about', (req, res) => {
+    res.sendFile(__dirname + '/views/about.html');
 });
