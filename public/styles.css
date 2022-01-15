@@ -28,6 +28,7 @@ p {
     border-bottom: 5px aquamarine solid;
     border-top: 5px aquamarine solid;
     margin: 0 10px;
+    font-size: 20px;
 }
 
 ul {
@@ -51,4 +52,32 @@ img {
 
 #works-btns {
     margin-bottom: 40px;
+}
+
+#home-div {
+    margin-top: 220px;
+}
+
+#home-btns {
+    margin-top: 15px;
+}
+
+#home-text p {
+    font-size: 20px;
+    margin: 40px auto;
+}
+
+#home-text h1 {
+    font-size: 50px;
+}
+
+#about-text p:last-child {
+    font-size: 14px;
+    font-style: italic;
+}
+
+#works-text li:last-child {
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 20px;
 }
