@@ -1,0 +1,23 @@
+{
+  "name": "solomuninfo",
+  "version": "1.0.0",
+  "description": "A webpage that contains info from the best dj in the world",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon -e html,css,js,json app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vicentegarcya/lab-express-basic-site.git"
+  },
+  "author": "vicentegarcya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vicentegarcya/lab-express-basic-site/issues"
+  },
+  "homepage": "https://github.com/vicentegarcya/lab-express-basic-site#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
